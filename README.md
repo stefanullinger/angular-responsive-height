@@ -2,6 +2,8 @@
 [![Hire SliceMeNice](https://img.shields.io/badge/Need%20Support%3F-Hire%20SliceMeNice-red.svg)](http://www.slicemenice.de)
 # angular-responsive-height
 
+An angular directive that calculates the height of an element respecting a given aspect ratio or preferred height in relation to the viewport's height.
+
 ## How to install
 
 ```
@@ -26,8 +28,10 @@ Reference the module in your app.
 
 Use the directive in your templates.
 
+In the following example, the element will have a minimum height of 200px, but will not get larger than 80% of the viewport's height.
+
 ```
-<responsive-height data-aspect-ratio="someAspectRatio" data-min-height="someMinHeight" data-max-height="someMaxHeight"></responsive-height>
+<responsive-height data-aspect-ratio="1.6" data-min-height="200px" data-max-height="80%"></responsive-height>
 ```
 
 

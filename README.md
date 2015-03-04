@@ -1,4 +1,5 @@
 [![Bower version](https://badge.fury.io/bo/angular-responsive-height.svg)](http://badge.fury.io/bo/angular-responsive-height) [![Build Status](https://travis-ci.org/sullinger/angular-responsive-height.svg?branch=master)](https://travis-ci.org/sullinger/angular-responsive-height) [![Coverage Status](https://coveralls.io/repos/sullinger/angular-responsive-height/badge.svg?branch=master)](https://coveralls.io/r/sullinger/angular-responsive-height?branch=master)
+[![Hire SliceMeNice](https://img.shields.io/badge/Need%20Support%3F-Hire%20SliceMeNice-red.svg)](http://www.slicemenice.de)]
 # angular-responsive-height
 
 ## How to install
@@ -31,6 +32,10 @@ Use the directive in your templates.
 
 
 ## Release History
+
+__1.1.0__
+
+  * Added more unit tests.
 
 __1.0.0__
 

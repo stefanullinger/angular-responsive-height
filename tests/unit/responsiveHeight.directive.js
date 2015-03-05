@@ -25,7 +25,7 @@ describe( "Directive: responsiveHeight", function () {
 		ResponsiveHeightService = _ResponsiveHeightService_;
 	} ) );
 
-	describe( 'link method', function () {
+	describe( "link method", function () {
 
 		it( "should add observers", function () {
 			// *******
@@ -52,7 +52,7 @@ describe( "Directive: responsiveHeight", function () {
 			expect( ResponsiveHeightService.calculateElementsHeight.calls.count() ).toEqual( 4 );
 		} );
 
-		describe( 'on window resize', function () {
+		describe( "on window resize", function () {
 
 			it( "should recalculate the elements height", function () {
 				// *******
@@ -141,7 +141,7 @@ describe( "Directive: responsiveHeight", function () {
 			} );
 		} );
 
-		describe( 'on scope.$destroy', function () {
+		describe( "on scope.$destroy", function () {
 			it( "should remove the registered observers", function () {
 				// *******
 				// given

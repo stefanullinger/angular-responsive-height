@@ -37,6 +37,10 @@ In the following example, the element will have a minimum height of 200px, but w
 
 ## Release History
 
+__1.1.1__
+
+  * Changed code style of unit tests.
+
 __1.1.0__
 
   * Added more unit tests.
